@@ -16,15 +16,18 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   line-height: 1.5;
+  text-align: center;
 }
 
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
-
+.title-button{
+  text-align: center;
+}
 /* Containers */
 
 .container-fluid{
@@ -83,13 +86,13 @@ p {
 
 /* Title Image */
 
-.title-image {
+/* .title-image {
   width: 110%;
   height: 100%;
-  position: relative;
-  right: 30%;
+  position: absolute;
+  right: 0;
   margin-left: 40%;
-}
+} */
 
 /* Features Section */
 
@@ -146,7 +149,7 @@ p {
 
 #pricing {
   padding: 100px;
-  color: #D7A86E;
+  color:  #D7A86E;
 }
 
 .price-text {
@@ -161,7 +164,6 @@ p {
   background-color: #D7A86E;
   color: #fff;
 }
-
 /* CTA Section */
 
 
@@ -178,9 +180,14 @@ p {
     text-align: center;
   }
 
-  .title-image {
+  /* .title-image {
     position: relative;
     text-align: center;
+    right: 40%
+  } */
+.body{
+  margin:  0px;
+  text-align: center;
+}
 
-  }
 }
